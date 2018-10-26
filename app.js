@@ -4,12 +4,12 @@ Vue.component('project-widget', {
 		<h3>{{ title }}</h3>
 		<p>{{ description }}</p>
 		<a v-if="url" :href="url" target="_blank">tell me more!</a>
-		<div v-if="externals" style="font-size:0.8em; margin-top:0.5em">
+		<p v-if="externals" style="font-size:0.8em">
 			External tools:
 			<span v-for="ext in externals">
-				{{ ext }}&nbsp;&nbsp;
+				<a :href="ext.url">{{ ext.name }}</a>&nbsp;&nbsp;
 			</span>
-		</div>
+		</p>
 	</div>`
 });
 
