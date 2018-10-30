@@ -24,15 +24,4 @@ new Vue({
 			projects: PROJECTS,
 		};
 	},
-	template: `<div>
-		<project-widget
-			v-for="project in projects"
-			:key="project.id"
-			:title="project.title"
-			:description="project.description"
-			:url="project.url"
-			:img="project.img"
-			:externals="project.externals"
-		/>
-	</div>`
 });
