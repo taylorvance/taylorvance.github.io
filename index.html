@@ -8,10 +8,36 @@
 		<title>TV Programs</title>
 		<script src="project-list.js"></script>
 		<link rel="stylesheet" href="style.css">
+		<!-- Favicon -->
+		<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+		<link rel="manifest" href="/site.webmanifest">
+		<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#4080f0">
+		<meta name="msapplication-TileColor" content="#4080f0">
+		<meta name="theme-color" content="#ffffff">
 	</head>
 	<body>
 		<div style="color:red; font-size:1.5em; font-style:italic; margin:0.5em; text-align:center;">[website redesign in progress...]</div><hr>
-		<div id="app"></div>
+		<div id="app">
+			<project-widget
+				v-for="project in projects"
+				:key="project.id"
+				:title="project.title"
+				:description="project.description"
+				:url="project.url"
+				:img="project.img"
+				:externals="project.externals"
+			></project-widget>
+
+			<!--<hr>-->
+			<!--<svg width="500" height="500" style="border: 1px solid black">-->
+				<!--<g fill="none" stroke="black" stroke-width="50" stroke-linecap="square" stroke-linejoin="arcs">-->
+					<!--<path d="M50 125 L250 125 L350 375 L450 125" />-->
+					<!--<path d="M150 125 L150 375" />-->
+				<!--</g>-->
+			<!--</svg>-->
+		</div>
 	</body>
 	<footer>
 		<script src="app.js"></script>
