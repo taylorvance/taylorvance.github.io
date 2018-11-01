@@ -20,6 +20,8 @@
 	<body>
 		<div style="color:red; font-size:1.5em; font-style:italic; margin:0.5em; text-align:center;">[website redesign in progress...]</div><hr>
 		<div id="app">
+			<h1>I'm Taylor Vance.&nbsp;&nbsp;I program.</h1>
+
 			<project-widget
 				v-for="project in projects"
 				:key="project.id"
@@ -29,6 +31,22 @@
 				:img="project.img"
 				:externals="project.externals"
 			></project-widget>
+
+			<br><br>
+			<h2>I also make music.</h2>
+			<p>
+				Check out our band
+				<a href="https://dragonemperor.bandcamp.com" target="_blank">The Dragon Emperor &amp; His Largest Army</a>
+				or browse our albums below.
+			</p>
+			<bandcamp-widget
+				v-for="album in albums"
+				:key="album.id"
+				:album="album.album"
+				:description="album.description"
+				:url="album.url"
+				:album-id="album.albumId"
+			></bandcamp-widget>
 
 			<!--<hr>-->
 			<!--<svg width="500" height="500" style="border: 1px solid black">-->
