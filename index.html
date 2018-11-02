@@ -7,7 +7,6 @@
 		<!--<script src="https://cdn.jsdelivr.net/npm/vue"></script> -->
 		<title>TV Programs</title>
 		<script src="project-list.js"></script>
-		<link rel="stylesheet" href="style.css">
 		<!-- Favicon -->
 		<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 		<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -18,9 +17,16 @@
 		<meta name="theme-color" content="#ffffff">
 	</head>
 	<body>
-		<div style="color:red; font-size:1.5em; font-style:italic; margin:0.5em; text-align:center;">[website redesign in progress...]</div><hr>
+		<style type="text/css" media="screen">
+			body {
+				font-family: "Trebuchet MS", Helvetica, sans-serif;
+				text-align: center;
+			}
+		</style>
 		<div id="app">
 			<h1>I'm Taylor Vance.&nbsp;&nbsp;I program.</h1>
+
+			<hr>
 
 			<project-widget
 				v-for="project in projects"
@@ -32,7 +38,8 @@
 				:externals="project.externals"
 			></project-widget>
 
-			<br><br>
+			<hr>
+
 			<h2>I also make music.</h2>
 			<p>
 				Check out our band
@@ -47,14 +54,6 @@
 				:url="album.url"
 				:album-id="album.albumId"
 			></bandcamp-widget>
-
-			<!--<hr>-->
-			<!--<svg width="500" height="500" style="border: 1px solid black">-->
-				<!--<g fill="none" stroke="black" stroke-width="50" stroke-linecap="square" stroke-linejoin="arcs">-->
-					<!--<path d="M50 125 L250 125 L350 375 L450 125" />-->
-					<!--<path d="M150 125 L150 375" />-->
-				<!--</g>-->
-			<!--</svg>-->
 		</div>
 	</body>
 	<footer>

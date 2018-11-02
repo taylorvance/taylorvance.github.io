@@ -1,10 +1,14 @@
 Vue.component('project-widget', {
 	props: ['title', 'description', 'url', 'img', 'externals'],
-	template: `<div class="project-widget">
-		<h3>{{ title }}</h3>
-		<p>{{ description }}</p>
-		<a v-if="url" :href="url" target="_blank">tell me more!</a>
-		<p v-if="externals" style="font-size:0.8em">
+	template: `<div style="display:inline-block; padding:1em 2em 1em 2em; vertical-align:top; width:25em;">
+		<h3>
+			<a :href="url" target="_blank">{{ title }}</a>
+		</h3>
+		<p style="text-align:justify">{{ description }}</p>
+		<a v-if="img" :href="url" target="_blank">
+			<img :src="img" style="max-width:25em; max-height:10em;"/>
+		</a>
+		<p v-if="externals" style="font-size:0.8em; font-style:italic;">
 			Externals:
 			<span v-for="ext in externals">
 				&nbsp;&nbsp;
@@ -23,9 +27,11 @@ Vue.component('bandcamp-widget', {
 			return "https://bandcamp.com/EmbeddedPlayer/album=" + this.albumId + "/size=large/bgcol=ffffff/linkcol=0687f5/artwork=none/transparent=true/"
 		},
 	},
-	template: `<div class="bandcamp-widget">
-		<h3>{{ album }}</h3>
-		<p>{{ description }}</p>
+	template: `<div style="display:inline-block; padding:1em 2em 1em 2em; vertical-align:top; width:25em;">
+		<h3>
+			<a :href="url" target="_blank">{{ album }}</a>
+		</h3>
+		<p style="text-align:justify">{{ description }}</p>
 		<iframe style="border:0; width:100%; height:350px;" :src="iframeSrc" seamless>
 			<a :href="url">{{ album }}</a>
 		</iframe>

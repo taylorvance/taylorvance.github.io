@@ -1,16 +1,16 @@
 var PROJECTS = [
 	{
 		"title": "Taylored Scales",
-		"description": "Musical scale generator/visualizer.",
+		"description": "Musical scale visualizer. Select the root note and relative pitches to see that scale on a guitar and piano.",
 		"url": "/taylored-scales",
-		"img": "",
+		"img": "/images/taylored-scales.png",
 		"externals": [{"name": "VueJS", "url": "https://vuejs.org"}]
 	},
 	{
-		"title": "Fretboard v1",
-		"description": "My first attempt at a scale visualizer.",
+		"title": "Scales v1",
+		"description": "My first attempt at a scale tool (predecessor of Taylored Scales).",
 		"url": "http://htmlpreview.github.io/?https://github.com/taylorvance/fretboard/blob/master/index.html",
-		"img": "",
+		"img": "/images/fretboard.png",
 		"externals": [{"name": "PaperJS", "url": "http://paperjs.org"}]
 	},
 	{
@@ -34,14 +34,14 @@ var PROJECTS = [
 		"title": "Boids",
 		"description": "Steering behavior demo based on research by Craig Reynolds.",
 		"url": "/boids",
-		"img": "",
+		"img": "/images/boids.gif",
 		"externals": [{"name": "Boids algorithm", "url": "https://www.red3d.com/cwr/boids/"}]
 	},
 	{
 		"title": "Gear Font",
 		"description": "Type something and click start.",
 		"url": "https://jsfiddle.net/tvance989/ss03kqqp/",
-		"img": ""
+		"img": "/images/gears.gif"
 	}
 ]
 
