@@ -12,8 +12,8 @@
 		<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 		<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 		<link rel="manifest" href="/site.webmanifest">
-		<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#4080f0">
-		<meta name="msapplication-TileColor" content="#4080f0">
+		<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#000000">
+		<meta name="msapplication-TileColor" content="#000000">
 		<meta name="theme-color" content="#ffffff">
 	</head>
 	<body>
@@ -27,6 +27,12 @@
 				padding: 1em 1.5em 1em 1.5em;
 				vertical-align: top;
 				width: 15em;
+			}
+			.icon {
+				display: inline-block;
+				height: 2.5em;
+				margin: 1em 1.5em 1em 1.5em;
+				vertical-align: top;
 			}
 			@media only screen and (min-width: 768px) {
 				.widget {
@@ -66,6 +72,15 @@
 				:url="album.url"
 				:album-id="album.albumId"
 			></bandcamp-widget>
+
+			<hr>
+
+			<a href="https://github.com/taylorvance" target="_blank">
+				<img class="icon" src="/images/github.png" title="GitHub"/>
+			</a>
+			<a href="https://www.linkedin.com/in/taylor-vance/" target="_blank">
+				<img class="icon" src="/images/linkedin.png" title="LinkedIn"/>
+			</a>
 		</div>
 	</body>
 	<footer>
