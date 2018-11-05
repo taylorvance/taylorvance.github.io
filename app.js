@@ -6,7 +6,7 @@ Vue.component('project-widget', {
 		</h3>
 		<p style="text-align:justify">{{ description }}</p>
 		<a v-if="img" :href="url" target="_blank">
-			<img :src="img" style="max-width:100%; max-height:10em;" :alt="title"/>
+			<img :src="img" style="max-width:100%; max-height:10em;" :title="title" :alt="title"/>
 		</a>
 		<p v-if="externals" style="font-size:0.8em; font-style:italic;">
 			Externals:
