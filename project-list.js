@@ -40,5 +40,4 @@ var PROJECTS = [
 		"url": "https://jsfiddle.net/tvance989/ss03kqqp/",
 		"img": "/images/gears.gif"
 	}
-]
-
+];

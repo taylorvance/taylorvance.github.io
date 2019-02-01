@@ -10,10 +10,6 @@ body {
 	padding: 0 10vw;
 }
 
-.widget-description {
-	text-align: justify;
-}
-
 .icon {
 	display: inline-block;
 	height: 2.5em;
