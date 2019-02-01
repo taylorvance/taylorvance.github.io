@@ -1,14 +1,14 @@
 var PROJECTS = [
 	{
 		"title": "Taylored Scales",
-		"description": "Musical scale visualizer. Select the root note and relative pitches to see that scale on a guitar and piano.",
+		"description": "Scale finder/builder. There are various ways to visualize the scale, and other sections help you learn more about it.",
 		"url": "/taylored-scales",
 		"img": "/images/taylored-scales.png",
 		"externals": [{"name": "VueJS", "url": "https://vuejs.org"}]
 	},
 	{
-		"title": "Scales v1",
-		"description": "My first attempt at a scale tool (predecessor of Taylored Scales).",
+		"title": "fretboard v1",
+		"description": "My first shot at a scale tool (deprecated in favor of Taylored Scales).",
 		"url": "/fretboard",
 		"img": "/images/fretboard.png",
 		"externals": [{"name": "PaperJS", "url": "http://paperjs.org"}]

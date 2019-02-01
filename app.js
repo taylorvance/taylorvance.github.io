@@ -4,7 +4,7 @@ Vue.component('project-widget', {
 		<h3><a :href="url" target="_blank">{{ title }}</a></h3>
 		<p style="text-align:justify">{{ description }}</p>
 		<a v-if="img" :href="url" target="_blank">
-			<img :src="img" style="max-width:100%; max-height:10em;" :title="title" :alt="title"/>
+			<img :src="img" style="border:1px solid #ddd; max-width:100%; max-height:10em;" :title="title" :alt="title"/>
 		</a>
 		<p v-if="externals" style="font-size:0.8em; font-style:italic;">
 			Externals:
@@ -43,7 +43,7 @@ new Vue({
 			albums: [
 				{
 					album: "The Dragon Emperor & His Largest Army",
-					description: "The Dragon Emperor & His Largest Army's self-titled album tells the story of a cosmic trickster whose goal is to conquer worlds and transform populations into mindless soldiers. It consists of ten vignettes, each telling a different story about the Dragon Emperor’s journey--and the devastation wrought on the planets in his path.",
+					description: "The Dragon Emperor & His Largest Army's self-titled album tells the story of a cosmic trickster whose goal is to conquer worlds and transform populations into mindless soldiers. It consists of ten vignettes, each telling a different story about the Dragon Emperor’s journey -- and the devastation wrought on the planets in his path.",
 					url: "https://dragonemperor.bandcamp.com/album/the-dragon-emperor-his-largest-army",
 					albumId: "3282846906",
 				},
@@ -55,7 +55,7 @@ new Vue({
 				},
 				{
 					album: "HUMANe",
-					description: "HUMANe is something we conceived, wrote, and produced in one night in 11th grade. It is a historical vignette about a herd of animals and the humans who hunt them.",
+					description: "HUMANe is something we conceived, wrote, and produced in one night in 11th grade. It portrays the lives of a herd of animals and the humans who hunt them.",
 					url: "https://theshynessclinic.bandcamp.com/album/humane",
 					albumId: "2714321413",
 				},
