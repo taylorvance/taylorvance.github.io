@@ -1,8 +1,8 @@
 Vue.component('project-widget', {
 	props: ['title', 'description', 'url', 'img', 'externals'],
-	template: `<div class="widget">
+	template: `<div>
 		<h3><a :href="url" target="_blank">{{ title }}</a></h3>
-		<p class="widget-description">{{ description }}</p>
+		<p style="text-align:justify">{{ description }}</p>
 		<a v-if="img" :href="url" target="_blank">
 			<img :src="img" style="max-width:100%; max-height:10em;" :title="title" :alt="title"/>
 		</a>
@@ -25,10 +25,10 @@ Vue.component('bandcamp-widget', {
 			return "https://bandcamp.com/EmbeddedPlayer/album=" + this.albumId + "/size=large/bgcol=ffffff/linkcol=0687f5/artwork=none/transparent=true/"
 		},
 	},
-	template: `<div class="widget">
+	template: `<div>
 		<h3><a :href="url" target="_blank">{{ album }}</a></h3>
-		<p class="widget-description">{{ description }}</p>
-		<iframe style="border:0; width:100%; height:350px;" :src="iframeSrc" seamless>
+		<p style="text-align:justify">{{ description }}</p>
+		<iframe style="border:0; width:100%; height:300px;" :src="iframeSrc" seamless>
 			<a :href="url">{{ album }}</a>
 		</iframe>
 	</div>`

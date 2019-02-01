@@ -28,32 +28,36 @@
 
 			<hr>
 
-			<project-widget
-				v-for="project in projects"
-				:key="project.id"
-				:title="project.title"
-				:description="project.description"
-				:url="project.url"
-				:img="project.img"
-				:externals="project.externals"
-			></project-widget>
+			<div class="grid">
+				<project-widget
+					v-for="project in projects"
+					:key="project.id"
+					:title="project.title"
+					:description="project.description"
+					:url="project.url"
+					:img="project.img"
+					:externals="project.externals"
+				></project-widget>
+			</div>
 
 			<hr>
 
 			<h2>I also make music.</h2>
 
-			<div class="widget" style="width:20em">
-				<p style="text-align:justify">
-					I'm challenging myself to write a song every week in 2019. Hear the recent entries below.
-				</p>
-				<iframe
-					width="100%"
-					height="350"
-					scrolling="no"
-					frameborder="no"
-					allow="autoplay"
-					src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/18258724&color=%23ff5500&auto_play=false&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=false&show_artwork=false"
-				></iframe>
+			<div class="grid">
+				<div>
+					<p style="text-align:justify">
+						I'm challenging myself to write a song every week in 2019. Hear the recent entries below.
+					</p>
+					<iframe
+						width="100%"
+						height="350"
+						scrolling="no"
+						frameborder="no"
+						allow="autoplay"
+						src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/18258724&color=%23ff5500&auto_play=false&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=false&show_artwork=false"
+					></iframe>
+				</div>
 			</div>
 
 			<br><br>
@@ -63,14 +67,16 @@
 				<a href="https://dragonemperor.bandcamp.com" target="_blank">The Dragon Emperor &amp; His Largest Army</a>
 				or browse our albums below.
 			</p>
-			<bandcamp-widget
-				v-for="album in albums"
-				:key="album.id"
-				:album="album.album"
-				:description="album.description"
-				:url="album.url"
-				:album-id="album.albumId"
-			></bandcamp-widget>
+			<div class="grid">
+				<bandcamp-widget
+					v-for="album in albums"
+					:key="album.id"
+					:album="album.album"
+					:description="album.description"
+					:url="album.url"
+					:album-id="album.albumId"
+				></bandcamp-widget>
+			</div>
 
 			<hr>
 
