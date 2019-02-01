@@ -1,10 +1,8 @@
 Vue.component('project-widget', {
 	props: ['title', 'description', 'url', 'img', 'externals'],
 	template: `<div class="widget">
-		<h3>
-			<a :href="url" target="_blank">{{ title }}</a>
-		</h3>
-		<p style="text-align:justify">{{ description }}</p>
+		<h3><a :href="url" target="_blank">{{ title }}</a></h3>
+		<p class="widget-description">{{ description }}</p>
 		<a v-if="img" :href="url" target="_blank">
 			<img :src="img" style="max-width:100%; max-height:10em;" :title="title" :alt="title"/>
 		</a>
@@ -28,10 +26,8 @@ Vue.component('bandcamp-widget', {
 		},
 	},
 	template: `<div class="widget">
-		<h3>
-			<a :href="url" target="_blank">{{ album }}</a>
-		</h3>
-		<p style="text-align:justify">{{ description }}</p>
+		<h3><a :href="url" target="_blank">{{ album }}</a></h3>
+		<p class="widget-description">{{ description }}</p>
 		<iframe style="border:0; width:100%; height:350px;" :src="iframeSrc" seamless>
 			<a :href="url">{{ album }}</a>
 		</iframe>
@@ -47,19 +43,19 @@ new Vue({
 			albums: [
 				{
 					album: "The Dragon Emperor & His Largest Army",
-					description: "The Dragon Emperor & His Largest Army's self-titled album tells the story of the Dragon Emperor, a cosmic trickster whose goal is to conquer worlds and transform populations into mindless soldiers. It consists of ten vignettes, each telling a different story about the Dragon Emperor’s journey--and the devastation wrought on the planets in his path.",
+					description: "The Dragon Emperor & His Largest Army's self-titled album tells the story of a cosmic trickster whose goal is to conquer worlds and transform populations into mindless soldiers. It consists of ten vignettes, each telling a different story about the Dragon Emperor’s journey--and the devastation wrought on the planets in his path.",
 					url: "https://dragonemperor.bandcamp.com/album/the-dragon-emperor-his-largest-army",
 					albumId: "3282846906",
 				},
 				{
 					album: "CURI/OSITY",
-					description: "",
+					description: "CURI/OSITY is a post-apocalyptic tale about human hubris and robotic nonconformity.",
 					url: "https://dragonemperor.bandcamp.com/album/curi-osity",
 					albumId: "3599526398",
 				},
 				{
 					album: "HUMANe",
-					description: "HUMANe is something we conceived, wrote, and produced in one night in 11th grade.",
+					description: "HUMANe is something we conceived, wrote, and produced in one night in 11th grade. It is a historical vignette about a herd of animals and the humans who hunt them.",
 					url: "https://theshynessclinic.bandcamp.com/album/humane",
 					albumId: "2714321413",
 				},
