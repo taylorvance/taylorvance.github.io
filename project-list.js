@@ -22,14 +22,14 @@ var PROJECTS = [
 	},
 	{
 		"title": "Umbra",
-		"description": "This is my first semi-full-featured game. [download link coming soon]",
+		"description": "Collect mushrooms while avoiding the sun's deadly flare. This was my first semi-full-featured game. [download link coming \"soon\"]",
 		"url": "https://github.com/tvance989/umbra",
 		"img": "/images/umbra.png",
 		"externals": [{"name": "Unity3D", "url": "https://unity3d.com"}]
 	},
 	{
 		"title": "Boids",
-		"description": "Steering behavior demo based on research by Craig Reynolds.",
+		"description": "Steering behavior-based flocking simulation using the boids algorithm.",
 		"url": "/boids",
 		"img": "/images/boids.gif",
 		"externals": [{"name": "Boids algorithm", "url": "https://www.red3d.com/cwr/boids/"}]
