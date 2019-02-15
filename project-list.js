@@ -2,7 +2,7 @@ var PROJECTS = [
 	{
 		"title": "Taylored Scales",
 		"description": "Scale finder/builder. There are various ways to visualize the scale, and other sections help you learn more about it.",
-		"url": "/taylored-scales",
+		"url": "https://tayloredscales.com",
 		"img": "/images/taylored-scales.png",
 		"externals": [{"name": "VueJS", "url": "https://vuejs.org"}]
 	},
