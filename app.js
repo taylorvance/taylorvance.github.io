@@ -6,14 +6,12 @@ Vue.component('project-widget', {
 		<a v-if="img" :href="url" target="_blank">
 			<img :src="img" style="border:1px solid #ddd; max-width:100%; max-height:10em;" :title="title" :alt="title"/>
 		</a>
-		<p v-if="externals" style="font-size:0.8em; font-style:italic;">
-			Externals:
-			<span v-for="ext in externals">
-				&nbsp;&nbsp;
+		<p v-if="externals">
+			<div v-for="ext in externals" style="font-size:0.7em">
 				<a :href="ext.url" target="_blank">
 					{{ ext.name }}
 				</a>
-			</span>
+			</div>
 		</p>
 	</div>`
 });
