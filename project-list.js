@@ -1,7 +1,7 @@
 var PROJECTS = [
 	{
 		"title": "Taylored Scales",
-		"description": "Scale finder/builder. There are various ways to visualize the scale, and other sections help you learn more about it.",
+		"description": "Build or select a scale and see it on a guitar and piano. Explore its chords, modes, and more.",
 		"url": "https://tayloredscales.com",
 		"img": "/images/taylored-scales.png",
 		"externals": [
@@ -11,7 +11,7 @@ var PROJECTS = [
 	},
 	{
 		"title": "fretboard v1",
-		"description": "My first shot at a scale tool (deprecated in favor of Taylored Scales).",
+		"description": "My first shot at a scale tool (deprecated for Taylored Scales).",
 		"url": "/fretboard",
 		"img": "/images/fretboard.png",
 		"externals": [
