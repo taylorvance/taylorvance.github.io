@@ -1,5 +1,17 @@
 var PROJECTS = [
 	{
+		"title": "Hexachromix",
+		"description": "I'm working on a web version of a board game I designed. Check back later.",
+		"url": "https://hexachromix.io",
+		"img": "/images/hexachromix.png"
+	},
+	{
+		"title": "Dotfile Management",
+		"description": "My homegrown solution for installing and syncing my settings across environments.",
+		"url": "https://github.com/taylorvance/dotfiles",
+		"img": "/images/dot.png"
+	},
+	{
 		"title": "Taylored Scales",
 		"description": "Build or select a scale and see it on a guitar and piano. Explore its chords, modes, and more.",
 		"url": "https://tayloredscales.com",
