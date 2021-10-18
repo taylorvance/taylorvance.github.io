@@ -1,7 +1,7 @@
 var PROJECTS = [
 	{
 		"title": "Hexachromix",
-		"description": "I'm working on a web version of a board game I designed. Check back later.",
+		"description": "I designed a strategy board game with a novel mechanic. Looking for playtesters!",
 		"url": "https://hexachromix.io",
 		"img": "/images/hexachromix.png"
 	},
