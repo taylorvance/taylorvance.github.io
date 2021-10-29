@@ -3,7 +3,13 @@ var PROJECTS = [
 		"title": "Hexachromix",
 		"description": "I designed a strategy board game with a novel mechanic. Looking for playtesters!",
 		"url": "https://hexachromix.io",
-		"img": "/images/hexachromix.png"
+		"img": "/images/hexachromix.png",
+		"externals": [
+			{"name": "Django backend", "url": "https://www.djangoproject.com"},
+			{"name": "VueJS frontend", "url": "https://vuejs.org"},
+			{"name": "source", "url": "https://github.com/taylorvance/hexachromixio"},
+		]
+
 	},
 	{
 		"title": "Dotfile Management",
