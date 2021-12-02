@@ -31,7 +31,10 @@ var PROJECTS = [
 	{
 		"title": "TV Programs",
 		"description": "This site, a showcase of my creative endeavors over the years.",
-		"img": "/android-chrome-192x192.png"
+		"img": "/android-chrome-192x192.png",
+		"externals": [
+			{"name": "source", "url": "https://github.com/taylorvance/taylorvance.github.io"},
+		]
 	},
 	{
 		"title": "Taylored Scales",
