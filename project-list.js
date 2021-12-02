@@ -1,5 +1,17 @@
 var PROJECTS = [
 	{
+		"title": "Prayer Banner",
+		"description": "Reserve slots and pray for a spiritual renewal event. Made for a nonprofit I support, used by communities across the country.",
+		"url": "https://prayerbanner.org",
+		"img": "https://prayerbanner.org/static/img/favicon.ico",
+		"externals": [
+			{"name": "Pilgrimage/Cursillo", "url": "https://pilgrimagecursillo.org"},
+			{"name": "Austin Pilgrimage", "url": "https://www.austinpilgrimage.org"},
+			{"name": "Django backend", "url": "https://www.djangoproject.com"},
+			{"name": "source", "url": "https://github.com/taylorvance/prayerbanner"},
+		]
+	},
+	{
 		"title": "Hexachromix",
 		"description": "I designed a strategy board game with a novel mechanic. Looking for playtesters!",
 		"url": "https://hexachromix.io",
@@ -9,7 +21,6 @@ var PROJECTS = [
 			{"name": "VueJS frontend", "url": "https://vuejs.org"},
 			{"name": "source", "url": "https://github.com/taylorvance/hexachromixio"},
 		]
-
 	},
 	{
 		"title": "Dotfile Management",
