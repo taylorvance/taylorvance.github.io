@@ -29,6 +29,11 @@ var PROJECTS = [
 		"img": "/images/dot.png"
 	},
 	{
+		"title": "TV Programs",
+		"description": "This site, a showcase of my creative endeavors over the years.",
+		"img": "/android-chrome-192x192.png"
+	},
+	{
 		"title": "Taylored Scales",
 		"description": "Build or select a scale and see it on a guitar and piano. Explore its chords, modes, and more.",
 		"url": "https://tayloredscales.com",
