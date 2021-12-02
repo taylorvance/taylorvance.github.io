@@ -33,6 +33,7 @@ var PROJECTS = [
 		"description": "This site, a showcase of my creative endeavors over the years.",
 		"img": "/android-chrome-192x192.png",
 		"externals": [
+			{"name": "hosted by GitHub Pages", "url": "https://pages.github.com"},
 			{"name": "source", "url": "https://github.com/taylorvance/taylorvance.github.io"},
 		]
 	},
