@@ -2,7 +2,11 @@ var PROJECTS = [
 	{
 		"title": "MCTS",
 		"description": "Web UI for Game AI",
-		"url": "https://github.com/taylorvance/mcts-web"
+		"url": "/mcts-web",
+		"externals": [
+			{"name": "React frontend", "url": "https://react.dev"},
+			{"name": "source", "url": "https://github.com/taylorvance/mcts-web"}
+		]
 	},
 	{
 		"title": "Nth Visitor",
