@@ -1,5 +1,10 @@
 var PROJECTS = [
 	{
+		"title": "MCTS",
+		"description": "Web UI for Game AI",
+		"url": "https://github.com/taylorvance/mcts-web"
+	},
+	{
 		"title": "Nth Visitor",
 		"description": "no comment",
 		"url": "https://nthvisitor.com"
