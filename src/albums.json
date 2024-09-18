@@ -1,0 +1,38 @@
+[
+	{
+		"key": "saw2019",
+		"title": "Song-a-Week 2019",
+		"description": "I made a song every week in 2019. Here are some of my favorites.",
+		"media": [
+			{"type": "iframe", "src": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/958738933&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"}
+		],
+		"links": [
+			{"name": "All 52 songs on SoundCloud", "url": "https://soundcloud.com/taylor-vance/sets/song-a-week-2019"},
+			{"name": "r/songaweek", "url": "https://www.reddit.com/r/songaweek/"}
+		]
+	},
+	{
+		"key": "tdeahla",
+		"title": "The Dragon Emperor & His Largest Army",
+		"description": "The Dragon Emperor & His Largest Army's self-titled album tells the story of the Dragon Emperor, a cosmic trickster whose goal is to conquer worlds and transform populations into mindless soldiers. It consists of ten vignettes, each telling a different story about the Dragon Emperor’s journey--and the devastation wrought on the planets in his path.",
+		"media": [
+			{"type": "iframe", "src": "https://bandcamp.com/EmbeddedPlayer/album=3282846906/size=large/bgcol=333333/linkcol=ffffff/artwork=small/transparent=true/"}
+		]
+	},
+	{
+		"key": "curiosity",
+		"title": "CURI/OSITY",
+		"description": "CURI/OSITY is a post-apocalyptic tale about human hubris and robotic nonconformity.",
+		"media": [
+			{"type": "iframe", "src": "https://bandcamp.com/EmbeddedPlayer/album=3599526398/size=large/bgcol=333333/linkcol=ffffff/artwork=small/transparent=true/"}
+		]
+	},
+	{
+		"key": "humane",
+		"title": "HUMANe",
+		"description": "HUMANe is something we conceived and produced in one afternoon in 11th grade. It portrays the lives of a herd of animals and the humans who hunt them.",
+		"media": [
+			{"type": "iframe", "src": "https://bandcamp.com/EmbeddedPlayer/album=2714321413/size=large/bgcol=333333/linkcol=ffffff/artwork=small/transparent=true/"}
+		]
+	}
+]

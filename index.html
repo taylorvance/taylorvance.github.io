@@ -1,99 +1,13 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<!-- Global site tag (gtag.js) - Google Analytics -->
-		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-128786180-1"></script>
-		<script>
-			window.dataLayer = window.dataLayer || [];
-			function gtag(){dataLayer.push(arguments);}
-			gtag('js', new Date());
-			gtag('config', 'UA-128786180-1');
-		</script>
-
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>TV Programs</title>
-		<meta name="description" content="I'm Taylor Vance. I program. Visit my site to see my games, tools, and music.">
-
-		<link rel="stylesheet" href="/style.css" type="text/css" media="screen" charset="utf-8">
-		<script src="project-list.js"></script>
-
-		<!-- VueJS -->
-		<!--script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.17/vue.js"></script-->
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.17/vue.min.js"></script>
-
-		<!-- Favicon -->
-		<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-		<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-		<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-		<link rel="manifest" href="/site.webmanifest">
-		<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#000000">
-		<meta name="msapplication-TileColor" content="#000000">
-		<meta name="theme-color" content="#ffffff">
-	</head>
-	<body>
-		<div id="app">
-			<h1>I'm Taylor Vance.&nbsp;&nbsp;I program.</h1>
-
-			<div class="grid">
-				<project-widget
-					v-for="project in projects"
-					:key="project.id"
-					:title="project.title"
-					:description="project.description"
-					:url="project.url"
-					:img="project.img"
-					:externals="project.externals"
-				></project-widget>
-			</div>
-
-			<hr>
-
-			<h2>I also make music.</h2>
-
-			<div style="padding: 0 calc(30vw - 5em)">
-				<p style="text-align:justify">
-					I wrote a song every week in 2019. You can listen to all 52 below.
-				</p>
-				<iframe
-					width="100%"
-					height="350"
-					scrolling="no"
-					frameborder="no"
-					allow="autoplay"
-					src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/18258724&color=%23ff5500&auto_play=false&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=false&show_artwork=false"
-				></iframe>
-			</div>
-
-			<br><br>
-
-			<p>
-				Check out my band
-				<a href="https://dragonemperor.bandcamp.com" target="_blank">The Dragon Emperor &amp; His Largest Army</a>
-				or browse our albums below.
-			</p>
-			<div class="grid">
-				<bandcamp-widget
-					v-for="album in albums"
-					:key="album.id"
-					:album="album.album"
-					:description="album.description"
-					:url="album.url"
-					:album-id="album.albumId"
-				></bandcamp-widget>
-			</div>
-
-			<hr>
-
-			<a href="https://github.com/taylorvance" target="_blank">
-				<img class="icon" src="/images/github.png" title="GitHub" alt="GitHub"/>
-			</a>
-			<a href="https://www.linkedin.com/in/taylor-vance/" target="_blank">
-				<img class="icon" src="/images/linkedin.png" title="LinkedIn" alt="LinkedIn"/>
-			</a>
-		</div>
-	</body>
-	<footer>
-		<script src="app.js"></script>
-	</footer>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/tv.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TV Programs</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
 </html>

@@ -1,0 +1,156 @@
+[
+	{
+		"key": "mcts-web",
+		"title": "MCTS Web",
+		"description": "Play board games against a general game playing AI (Monte Carlo Tree Search).",
+		"technical": "Runs entirely in the browser, using my own MCTS NPM package. So far I've implemented Tic-Tac-Toe, Onitama, and Filler.",
+		"url": "/mcts-web",
+		"source": "https://github.com/taylorvance/mcts-web",
+		"media": [
+			{"type": "img", "src": "/imgs/mcts/ttt.png"},
+			{"type": "img", "src": "/imgs/mcts/onitama.png"},
+			{"type": "img", "src": "/imgs/mcts/filler.png"}
+		],
+		"links": [
+			{"name": "MCTS NPM pkg", "url": "https://www.npmjs.com/package/multimcts"}
+		],
+		"tags": ["game","reactjs","showcase"]
+	},
+	{
+		"key": "nth-visitor",
+		"title": "Nth Visitor",
+		"description": "no comment...",
+		"technical": "Serverless code running on AWS Lambda behind API Gateway, with DynamoDB for storage.",
+		"url": "https://nthvisitor.com",
+		"tags": ["aws","serverless","experimental"]
+	},
+	{
+		"key": "prayerbanner",
+		"title": "Prayer Banner",
+		"description": "Reserve time slots to pray for an event. Made for a nonprofit I support, used by communities nationwide.",
+		"technical": "Hosted on AWS EC2 between 2021 and 2024.",
+		"source": "https://github.com/taylorvance/prayerbanner",
+		"links": [
+			{"name": "Pilgrimage/Cursillo", "url": "https://pilgrimagecursillo.org"},
+			{"name": "Austin Pilgrimage", "url": "https://www.austinpilgrimage.org"}
+		],
+		"tags": ["django","aws","retired","professional","utility"]
+	},
+	{
+		"key": "hexachromix",
+		"title": "Hexachromix",
+		"description": "I designed a board game with a novel mechanic. Play against the AI or invite a friend. I'm proud of this one.",
+		"technical": "Running on a Raspberry Pi at my house (sometimes needs a reboot).",
+		"url": "https://hexachromix.io",
+		"source": "https://github.com/taylorvance/hexachromixio",
+		"media": [
+			{"type": "img", "src": "/imgs/hex/logo.png"},
+			{"type": "img", "src": "/imgs/hex/ss.png"},
+			{"type": "img", "src": "/imgs/hex/ss2.png"},
+			{"type": "img", "src": "/imgs/hex/ss3.png"}
+		],
+		"tags": ["game","django","vuejs","raspberrypi","showcase"]
+	},
+	{
+		"key": "dotfiles",
+		"title": "Dotfile Management",
+		"description": "My homegrown solution for syncing my settings across environments.",
+		"technical": "Bash script installs latest dotfiles and backs up existing ones. Settings for vim, git, zsh, tmux.",
+		"source": "https://github.com/taylorvance/dotfiles",
+		"media": [
+			{"type": "img", "src": "/imgs/dot.png"}
+		],
+		"tags": ["utility"]
+	},
+	{
+		"key": "tvprograms",
+		"title": "TV Programs",
+		"description": "This site, a showcase of my creative endeavors over the years.",
+		"technical": "Hosted on GitHub Pages.",
+		"source": "https://github.com/taylorvance/taylorvance.github.io",
+		"media": [
+			{"type": "img", "src": "/tv.png"}
+		],
+		"tags": ["reactjs","showcase"]
+	},
+	{
+		"key": "taylored-scales",
+		"title": "Taylored Scales",
+		"description": "Build or select a scale and see it on a guitar and piano. Explore its chords, modes, and more.",
+		"url": "https://tayloredscales.com",
+		"source": "https://github.com/taylorvance/taylored-scales",
+		"media": [
+			{"type": "img", "src": "/imgs/tayloredscales/ss1.png"},
+			{"type": "img", "src": "/imgs/tayloredscales/ss2.png"},
+			{"type": "img", "src": "/imgs/tayloredscales/ss3.png"},
+			{"type": "img", "src": "/imgs/tayloredscales/ss4.png"}
+		],
+		"tags": ["vuejs","utility","showcase"]
+	},
+	{
+		"key": "fretboard",
+		"title": "Fretboard v1",
+		"description": "Early draft of Taylored Scales.",
+		"technical": "Made with PaperJS.",
+		"url": "/fretboard",
+		"source": "https://github.com/taylorvance/fretboard",
+		"media": [
+			{"type": "img", "src": "/imgs/fretboard.png"}
+		],
+		"tags": ["prototype","retired","utility"]
+	},
+	{
+		"key": "ld40",
+		"title": "Mo Gold, Mo Dragons",
+		"description": "My entry for Ludum Dare 40. The theme was \"the more you have, the worse it is.\" I made the game, art (such as it is), and music in 48 hours.",
+		"technical": "Uses steering behaviors and other concepts from my Boids project.",
+		"url": "https://tvance1.itch.io/ld40",
+		"source": "https://github.com/taylorvance/ld40",
+		"media": [
+			{"type": "img", "src": "/imgs/mgmd.gif"}
+		],
+		"links": [
+			{"name": "Submission page", "url": "https://ldjam.com/events/ludum-dare/40/mo-gold-mo-dragons"},
+			{"name": "Ludum Dare game jam", "url": "https://ldjam.com"}
+		],
+		"tags": ["game"]
+	},
+	{
+		"key": "umbra",
+		"title": "Umbra",
+		"description": "Collect mushrooms while avoiding the sun's deadly flare. This is my first \"game\".",
+		"technical": "I tried to export a web version, but the lighting effects (the core game mechanic) were too heavy.",
+		"url": "https://github.com/tvance989/umbra",
+		"source": "https://github.com/tvance989/umbra",
+		"media": [
+			{"type": "img", "src": "/imgs/umbra.png"}
+		],
+		"tags": ["game","unity3d","retired","experimental"]
+	},
+	{
+		"key": "boids",
+		"title": "Boids",
+		"description": "Steering behavior-based flocking simulation using the boids algorithm.",
+		"technical": "Made with HTML Canvas and vanilla JS.",
+		"url": "/boids",
+		"source": "https://github.com/taylorvance/boids",
+		"media": [
+			{"type": "img", "src": "/imgs/boids.gif"}
+		],
+		"links": [
+			{"name": "Boids algorithm", "url": "https://www.red3d.com/cwr/boids/"}
+		],
+		"tags": ["game","prototype"]
+	},
+	{
+		"key": "gear-font",
+		"title": "Gear Font",
+		"description": "Type something and click start. This is the first project I ever published online.",
+		"technical": "Made with HTML Canvas and vanilla JS.",
+		"url": "https://jsfiddle.net/tvance989/ss03kqqp/",
+		"media": [
+			{"type": "img", "src": "/imgs/gears.gif"}
+		],
+		"tags": ["experimental"]
+	}
+]
