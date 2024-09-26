@@ -34,7 +34,22 @@ function App() {
 
       <main className="container mx-auto my-8 px-8 flex flex-col gap-16">
         <Section id="about" title="I'm Taylor Vance. I program.">
-          <p className="text-lg">I am a full-stack developer with a passion for creating efficient web solutions.</p>
+          <div className="xl:w-2/3 lg:w-3/4">
+            <a className="float-right" href="https://www.credly.com/badges/be48d926-a1e7-4bfb-bc5f-cc3c2d6466db/public_url">
+              <img src="/imgs/aws-ccp.png" alt="AWS Certified Cloud Practitioner" className="h-32" />
+            </a>
+            <p className="text-lg mb-4">
+              I am a full-stack developer with a passion for creating efficient web solutions.
+              I take pride in writing clean code and building low-maintenance applications.
+            </p>
+            <p className="text-lg mb-4">
+              Currently, I am a senior software engineer at <a href="https://www.engage2excel.com" className="link-primary">Engage2Excel</a>.
+              I am also available for freelance work. Please <a href="#contact" className="link-primary">contact me</a> if you would like to discuss a project.
+            </p>
+            <p className="text-lg">
+              Outside of programming, I enjoy <a href="#music" className="link-primary">music</a>, board games, camping, and spending time with my family.
+            </p>
+          </div>
         </Section>
 
         <Section id="projects" title="Projects">

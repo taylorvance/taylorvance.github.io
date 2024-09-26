@@ -13,18 +13,4 @@ git clone git@github.com:taylorvance/taylorvance.github.io.git
 npm install
 # run the dev server
 npm run dev
-# or, to make it accessible on your local network
-npm run dev -- --host 0.0.0.0
-# deploy to GitHub Pages (uses gh-pages branch)
-npm run deploy
 ```
-
-I followed a guide to deploy to GitHub Pages. Here's the gist.
-- package.json
-  - `"homepage": "https://www.tvprograms.tech"`
-  - `"scripts": { ..., "predploy": "npm run build", "deploy": "gh-pages -d dist", ... }`
-- CNAME file in /public: `www.tvprograms.tech`
-- Repo Settings > Pages
-  - Source: branch `gh-pages`, folder `/ (root)`
-  - Custom domain: `www.tvprograms.tech`
-- Run `npm run deploy` and the current code will be built and deployed to the gh-pages branch.

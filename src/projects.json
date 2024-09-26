@@ -28,7 +28,7 @@
 		"key": "prayerbanner",
 		"title": "Prayer Banner",
 		"description": "Reserve time slots to pray for an event. Made for a nonprofit I support, used by communities nationwide.",
-		"technical": "Hosted on AWS EC2 between 2021 and 2024.",
+		"technical": "Hosted on Amazon EC2 from 2021 to 2024.",
 		"source": "https://github.com/taylorvance/prayerbanner",
 		"links": [
 			{"name": "Pilgrimage/Cursillo", "url": "https://pilgrimagecursillo.org"},
