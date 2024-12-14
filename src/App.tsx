@@ -35,8 +35,8 @@ function App() {
       <main className="container mx-auto my-8 px-8 flex flex-col gap-16">
         <Section id="about" title="I'm Taylor Vance. I program.">
           <div className="xl:w-2/3 lg:w-3/4">
-            <a className="float-right" href="https://www.credly.com/badges/be48d926-a1e7-4bfb-bc5f-cc3c2d6466db/public_url">
-              <img src="/imgs/aws-ccp.png" alt="AWS Certified Cloud Practitioner" className="h-32" />
+            <a className="float-right" href="https://www.credly.com/badges/86dda515-b110-4733-b1ab-a2b4256b9311/public_url">
+              <img src="/imgs/aws-saa.png" alt="AWS Certified Solutions Architect - Associate" className="h-32" />
             </a>
             <p className="text-lg mb-4">
               I am a full-stack developer with a passion for creating efficient web solutions.
