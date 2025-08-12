@@ -41,7 +41,7 @@
 		"title": "Hexachromix",
 		"description": "I designed a board game with a novel mechanic. Play against the AI or invite a friend. I'm proud of this one.",
 		"technical": "Running on a Raspberry Pi at my house (sometimes needs a reboot).",
-		"url": "https://hexachromix.io",
+		"url": "https://hexachromix.com",
 		"source": "https://github.com/taylorvance/hexachromixio",
 		"media": [
 			{"type": "img", "src": "/imgs/hex/logo.png"},
