@@ -48,8 +48,8 @@ function App() {
               I take pride in writing clean code and building low-maintenance applications.
             </p>
             <p className="text-lg mb-4">
-              I am a senior software engineer at <a href="https://www.engage2excel.com" className="link-primary">Engage2Excel</a>.
-              I am also available for freelance work. Please <a href="#contact" className="link-primary">contact me</a> if you would like to discuss a project.
+              I am a software engineer at <a href="https://exactasystems.com" className="link-primary">Exacta Systems</a>.
+              <!--I am also available for freelance work. Please <a href="#contact" className="link-primary">contact me</a> if you would like to discuss a project.-->
             </p>
             <p className="text-lg">
               Outside of programming, I enjoy <a href="#music" className="link-primary">music</a>, board games, camping, and spending time with my family.
