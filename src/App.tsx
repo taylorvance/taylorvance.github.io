@@ -49,7 +49,7 @@ function App() {
             </p>
             <p className="text-lg mb-4">
               I am a software engineer at <a href="https://exactasystems.com" className="link-primary">Exacta Systems</a>.
-              <!--I am also available for freelance work. Please <a href="#contact" className="link-primary">contact me</a> if you would like to discuss a project.-->
+              {/*I am also available for freelance work. Please <a href="#contact" className="link-primary">contact me</a> if you would like to discuss a project.*/}
             </p>
             <p className="text-lg">
               Outside of programming, I enjoy <a href="#music" className="link-primary">music</a>, board games, camping, and spending time with my family.
