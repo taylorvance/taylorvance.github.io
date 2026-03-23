@@ -1,7 +1,7 @@
 [
   {
     "key": "wordlink",
-    "title": "Wordlink",
+    "title": "WordLink",
     "description": "Simple word ladder game. Play in classic mode or endless/timed mode.",
     "url": "/wordlink",
     "source": "https://github.com/taylorvance/wordlink",
