@@ -6,7 +6,7 @@
     "url": "/wordlink",
     "source": "https://github.com/taylorvance/wordlink",
     "media": [{ "type": "img", "src": "/imgs/wordlink.jpg" }],
-    "tags": ["game", "reactjs"]
+    "tags": ["game", "reactjs", "showcase"]
   },
   {
     "key": "mcts-web",
