@@ -1,5 +1,13 @@
 [
   {
+    "key": "traingame",
+    "title": "Traingame (working title)",
+    "description": "Railway path-building puzzle board game for kids.",
+    "url": "/traingame",
+    "source": "https://github.com/taylorvance/traingame",
+    "tags": ["game", "reactjs", "prototype"]
+  },
+  {
     "key": "wordlink",
     "title": "WordLink",
     "description": "Simple word ladder game. Play in classic mode or endless/timed mode.",
@@ -11,8 +19,8 @@
   {
     "key": "mcts-web",
     "title": "MCTS Web",
-    "description": "Play board games against a general game playing AI (Monte Carlo Tree Search).",
-    "technical": "Runs entirely in the browser, using my own MCTS NPM package. So far I've implemented Tic-Tac-Toe, Onitama, and Filler.",
+    "description": "Play various board games against a general game playing AI (Monte Carlo Tree Search).",
+    "technical": "Runs entirely in the browser, using my own MCTS engine.",
     "url": "/mcts-web",
     "source": "https://github.com/taylorvance/mcts-web",
     "media": [
