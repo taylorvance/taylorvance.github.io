@@ -1,29 +1,26 @@
-import './App.css';
-import { FaGithub, FaLinkedin } from 'react-icons/fa6';
-import albums from './albums.json';
-import Section from './components/Section';
-import Projects from './components/Projects';
-import Project from './components/Project';
+import { TvProgramsMark } from '@taylorvance/tv-shared-web'
+import { FaGithub, FaLinkedin } from 'react-icons/fa6'
+import albums from './albums.json'
+import './App.css'
+import Project from './components/Project'
+import Projects from './components/Projects'
+import Section from './components/Section'
 
 function App() {
   return (
     <>
       <header className="sticky top-0 z-10">
-        { /* keep nav height in sync with scroll padding (in app css) */ }
+        {/* keep nav height in sync with scroll padding (in app css) */}
         <nav className="navbar w-full h-16 flex justify-between bg-primary-content">
-          <a href="/" className="btn btn-ghost text-2xl text-primary">
-            <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
-              width="36" height="36" viewBox="0 0 998 998"
-              preserveAspectRatio="xMidYMid meet"
-              className="fill-current"
-            >
-              <path transform="translate(0,998) scale(0.1,-0.1)" d="M7844 6005 c-472 -1180 -861 -2145 -864 -2145 -3 0 -379 932 -834 2070 l-828 2070 -2419 0 -2419 0 0 -500 0 -500 1000 0 1000 0 0 -2500 0 -2500 500 0 500 0 0 2500 0 2500 582 -2 582 -3 1165 -2913 c641 -1601 1168 -2912 1171 -2912 3 0 595 1473 1315 3273 720 1799 1314 3286 1322 3304 l13 31 -418 167 c-229 92 -438 175 -464 186 l-46 18 -858 -2144z"/>
-            </svg>
-            Programs
+          <a href="/" aria-label="TV Programs" className="btn btn-ghost text-2xl text-primary">
+            <span className="inline-flex items-center gap-2 font-semibold">
+              <TvProgramsMark aria-hidden="true" className="h-9 w-9 shrink-0 fill-current" />
+              <span className="leading-none">Programs</span>
+            </span>
           </a>
 
           <ul className="menu menu-horizontal">
-            <li><a href="#">About</a></li>
+            <li><a href="#about">About</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#music">Music</a></li>
             <li><a href="#contact">Contact</a></li>
@@ -87,13 +84,13 @@ function App() {
           <aside className="text-neutral ml-6">&copy; {new Date().getFullYear()} Taylor Vance</aside>
 
           <ul className="menu menu-horizontal text-4xl">
-            <li><a href="https://github.com/taylorvance" target="_blank"><FaGithub /></a></li>
-            <li><a href="https://www.linkedin.com/in/taylor-vance/" target="_blank"><FaLinkedin /></a></li>
+            <li><a href="https://github.com/taylorvance" target="_blank" rel="noreferrer"><FaGithub /></a></li>
+            <li><a href="https://www.linkedin.com/in/taylor-vance/" target="_blank" rel="noreferrer"><FaLinkedin /></a></li>
           </ul>
         </nav>
       </footer>
     </>
-  );
+  )
 }
 
-export default App;
+export default App
